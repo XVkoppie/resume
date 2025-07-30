@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+        }
+        .header {
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        .contact-info {
+             margin-bottom: 10px;
+            font-size: 15px;
+        }
+        .contact-info div{
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 20px;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+            color: #444;
+        }
+        .section-item {
+            margin-bottom: 20px;
+        }
+        .time-period {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        .item-title {
+            font-weight: bold;
+            margin: 8px 0 5px 0;
+        }
+        .item-subtitle {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .skill-tag {
+            background-color: #f5f5f5;
+            padding: 5px 12px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+        .project-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #eee;
+            border-radius: 3px;
+        }
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+         .achievement-badge {
+            display: inline-block;
+            background-color: #e6f7ff;
+            color: #1890ff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 8px;
+            font-weight: normal;
+        }
+        .tech-stack {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+        }
+        .tech-stack span {
+            background-color: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img loading="lazy" style="width: 150px;" src="https://gcore.jsdelivr.net/gh/xvkoppie/resume@main//images/avatar.jpg" alt="">
+        <div style="margin-left: 40px;">
+            <h1>王乙舒 <span style="font-size: 18px; color: #666; font-weight: normal;">前端开发</span></h1>
+            <div class="contact-info">
+                <div>173-9039-0682</div>
+                <div>20岁</div>
+                <div>意向城市：成都</div>
+                <div>内江师范学院 | 计算机科学与技术</div>
+            </div>
+        </div>
+   </div>
+
+    <h2>核心优势</h2>
+    <ul>
+        <li><strong>全栈开发能力：</strong>熟练掌握Vue3全栈开发，具备Spring Boot后端开发经验，能独立完成中小型项目开发</li>
+        <li><strong>工程化实践：</strong>熟悉前端工程化工具链(Vite, Git)，注重代码规范与项目可维护性</li>
+        <li><strong>业务理解：</strong>熟悉地图API集成、用户系统设计等业务场景</li>
+        <li><strong>学习能力：</strong>在校期间自学掌握主流前端技术栈，并通过项目实践验证</li>
+    </ul>
+
+   <h2>项目经验</h2>
+    <div class="section-item">
+        <div class="time-period">2025.01 - 至今 <span style="font-weight: normal; color: #666;">(6个月)</span></div>
+        <div class="item-title">旅游平台 <span class="achievement-badge">个人全栈项目</span></div>
+        <div class="tech-stack">
+            <span>Vue3</span>
+            <span>Pinia</span>
+            <span>Element Plus</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+            <span>百度地图API</span>
+        </div>
+        <ul>
+            <li><strong>前端架构设计</strong>：采用Vue3组合式API开发可复用组件库，通过动态导入实现路由懒加载</li>
+            <li><strong>地图功能开发</strong>：集成百度地图API实现景点标记、路线规划，开发自定义信息窗口组件，提升用户交互体验</li>
+            <li><strong>状态管理方案</strong>：使用Pinia重构全局状态管理，模块化用户、路线、收藏等数据流</li>
+            <li><strong>后端接口设计</strong>：设计RESTful API规范，实现JWT认证、异常统一处理，接口响应时间控制在200ms内</li>
+            <li><strong>管理后台开发</strong>：基于Element Plus开发高复用表格组件，支持Excel导入导出</li>
+        </ul>
+    </div>
+    
+    <h2>技术栈</h2>
+    <div style="margin-bottom: 10px; font-weight: bold;">前端技术</div>
+    <div class="skills-container">
+        <span class="skill-tag">Vue3</span>
+        <span class="skill-tag">Pinia</span>
+        <span class="skill-tag">Vue Router</span>
+        <span class="skill-tag">Element Plus</span>
+        <span class="skill-tag">Axios</span>
+        <span class="skill-tag">Vite</span>
+        <span class="skill-tag">ES6</span>
+        <span class="skill-tag">SCSS</span>
+        <span class="skill-tag">百度地图API</span>
+    </div>
+    
+    <div style="margin: 15px 0 10px 0; font-weight: bold;">后端技术</div>
+    <div class="skills-container">
+        <span class="skill-tag">Spring Boot</span>
+        <span class="skill-tag">RESTful API</span>
+        <span class="skill-tag">JWT</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">MyBatis-Plus</span>
+    </div>
+
+   <div style="margin: 15px 0 10px 0; font-weight: bold;">开发工具</div>
+    <div class="skills-container">
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">Postman</span>
+        <span class="skill-tag">Swagger</span>
+        <span class="skill-tag">Cursor</span>
+    </div>
+
+    <h2>教育背景</h2>
+    <div class="section-item">
+        <div class="time-period">2023.09 - 2027.06 </div>
+        <div class="item-title">内江师范学院 - 计算机科学与技术 <span class="achievement-badge">本科</span></div>
+        <ul>
+            <li>主修课程：Web前端开发、数据结构、数据库原理、计算机网络</li>
+            <li>自学课程：Vue全家桶、gsap、css和sass、响应式、js、ts</li>
+        </ul>
+    </div>
+    <h2>附加信息</h2>
+     <ul>
+        <li>英语水平：CET-4，具备技术文档阅读能力</li>
+        <li>兴趣爱好：旅游摄影、技术社区交流</li>
+    </ul>
+    <h2>项目图片预览：</h2>
+        <div class="project-images">
+            <h3>▪ 首页：</h3>
+            <img loading="lazy" src="./images/first.png" class="project-image">
+            <h3>▪ 商品页：</h3>
+            <img loading="lazy" src="https://gcore.jsdelivr.net/gh/xvkoppie/resume@main/images/localhost_5173_tour-packages (1).png" class="project-image">
+            <h3>▪ 用户中心：</h3>
+            <img loading="lazy" src="https://gcore.jsdelivr.net/gh/xvkoppie/resume@main/images/localhost_5173_user_notes.png" class="project-image">
+            <h3>▪ 路线：</h3>
+            <img loading="lazy" src="https://gcore.jsdelivr.net/gh/xvkoppie/resume@main/images/localhost_5173.png" class="project-image">
+            <h3>▪ 管理员页面-景点管理：</h3>
+            <img loading="lazy" src="https://gcore.jsdelivr.net/gh/xvkoppie/resume@main/images/localhost_5173_firstpage (1).png" class="project-image">
+        </div>
+   
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const lazyImages = [].slice.call(document.querySelectorAll("img[data-src]"));
+  
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+    });
+  }
+});
+</script>
+</html>
